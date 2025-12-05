@@ -1,0 +1,1 @@
+This is the frontend for the RFP MVP. Run `npm install` then `npm run dev`.

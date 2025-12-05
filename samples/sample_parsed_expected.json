@@ -1,0 +1,21 @@
+{
+  "vendor_name": "Vendor Inc.",
+  "line_items": [
+    {
+      "name": "Laptop Model X",
+      "qty": 10,
+      "unit_price": 900,
+      "total_price": 9000
+    },
+    {
+      "name": "Monitor 27inch",
+      "qty": 5,
+      "unit_price": 200,
+      "total_price": 1000
+    }
+  ],
+  "total_price": 10000,
+  "delivery_days": 14,
+  "warranty_months": 12,
+  "payment_terms": "Net 30"
+}
