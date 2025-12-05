@@ -1,15 +1,4 @@
-/**
- * backend/services/mailgunMailer.js
- * Simple Mailgun mailer wrapper using mailgun.js
- *
- * Requires:
- *   npm install mailgun.js form-data
- *
- * Environment variables:
- *   MAILGUN_API_KEY
- *   MAILGUN_DOMAIN         // e.g. mg.kushagragarg.in
- *   FROM_EMAIL             // optional, fallback will be no-reply@MAILGUN_DOMAIN
- */
+// backend/services/mailgunMailer.js
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
 

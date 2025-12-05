@@ -1,14 +1,8 @@
-// backend/services/ai.js
-/**
- * Gemini-based AI service helper using Google Gen AI SDK.
- * Requires: npm install @google/genai
- *
- * Set GEMINI_API_KEY in env.
- */
+
 
 const { GoogleGenAI } = require('@google/genai');
 
-const ai = new GoogleGenAI({/* client reads GEMINI_API_KEY from env by default */});
+const ai = new GoogleGenAI({});
 
 /**
  * Helper to safely extract text from Gemini's generateContent result.
